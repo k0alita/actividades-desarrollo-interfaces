@@ -83,7 +83,7 @@ class _JuegoScreenState extends State<JuegoScreen> {
               children: [
                 Expanded(
                   child: Column(
-                      children: [Text("Player 1 $_player1", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                      children: [Text("Player 1", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
                       SizedBox(height: 10),
                         _comprobarImagen1()
                     ]
@@ -92,7 +92,7 @@ class _JuegoScreenState extends State<JuegoScreen> {
                 Expanded(
                   child: Column(
                       children: [
-                        Text("Player 2 $_player2" , style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
+                        Text("Player 2" , style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
                         SizedBox(height: 10),
                         _comprobarImagen2()]
                   ),
